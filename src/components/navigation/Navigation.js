@@ -1,11 +1,28 @@
 import React from 'react';
 import {Link} from "react-router-dom";
+import Cart from '../card/Cart';
+import {Layout, Menu, Popover, Button} from 'antd';
+import './Navigation.scss';
+
+const {Header, Content, Footer} = Layout;
+
 
 export default function Navigation() {
     return (
-        <div>
-            <Link to="/">Home</Link>
-            <Link to="/product">Product</Link>
-        </div>
+        <Header>
+            <div className="logo">
+                <img alt="logo" src={"https://ik.imagekit.io/jtrj8won4m0/Tasse/logo_oScz6M-M1c.svg"} width="45"/>
+                <h1>Seaspa</h1>
+            </div>
+            <Menu mode="horizontal" defaultSelectedKeys={['2']}>
+                <Menu.Item key="1"><Link to="/">Home</Link></Menu.Item>
+                <Menu.Item key="2"><Link to="/product">Product</Link></Menu.Item>
+            </Menu>
+            <div className="cart">
+                <Popover placement="bottomRight" title="Einkaufswagen" content={<Cart/>} trigger="click">
+                    <Button>Einkaufswagen</Button>
+                </Popover>
+            </div>
+        </Header>
     );
 }

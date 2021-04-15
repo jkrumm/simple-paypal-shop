@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  width: 100vw;
+  min-height: 100%;
+  display: block;
+  position: relative;
+  background-color: #ECEFF4;
+} 
+
+.wrapper {
+  max-width: 1000px;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  min-height: 100vh;
+  background-color: #E5E9F0;
+  border-left: 1px solid #D8DEE9;
+  border-right: 1px solid #D8DEE9;
+}

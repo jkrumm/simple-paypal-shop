@@ -8,10 +8,8 @@ import './App.scss';
 
 function App() {
     return (
-        <>
-            <header>
-                <Navigation/>
-            </header>
+        <div className="wrapper">
+            <Navigation/>
             <main>
                 <Switch>
                     <Route path="/" component={Home} exact/>
@@ -24,7 +22,7 @@ function App() {
             <footer>
                 Footer
             </footer>
-        </>
+        </div>
     )
 }
 
