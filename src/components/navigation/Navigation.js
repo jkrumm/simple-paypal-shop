@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import Cart from '../card/Cart';
+import Card from '../cart/Cart';
 import {Layout, Menu, Popover, Button} from 'antd';
 import './Navigation.scss';
 
@@ -17,9 +17,10 @@ export default function Navigation() {
             <Menu mode="horizontal" defaultSelectedKeys={['2']}>
                 <Menu.Item key="1"><Link to="/">Home</Link></Menu.Item>
                 <Menu.Item key="2"><Link to="/product">Product</Link></Menu.Item>
+                <Menu.Item key="3"><Link to="/cart">Cart</Link></Menu.Item>
             </Menu>
             <div className="cart">
-                <Popover placement="bottomRight" title="Einkaufswagen" content={<Cart/>} trigger="click">
+                <Popover placement="bottomRight" title="Einkaufswagen" content={<Card/>} trigger="click">
                     <Button>Einkaufswagen</Button>
                 </Popover>
             </div>
