@@ -10,13 +10,13 @@ const {Header, Content, Footer} = Layout;
 export default function Navigation() {
     return (
         <Header>
-            <div className="logo">
-                <img alt="logo" src={"https://ik.imagekit.io/jtrj8won4m0/Tasse/logo_oScz6M-M1c.svg"} width="45"/>
-                <h1>Seaspa</h1>
-            </div>
+            <Link to="/">
+                <div className="logo">
+                    <img alt="logo" src={"https://ik.imagekit.io/jtrj8won4m0/Tasse/logo_oScz6M-M1c.svg"} width="45"/>
+                    <h1>Seaspa</h1>
+                </div>
+            </Link>
             <Menu mode="horizontal" defaultSelectedKeys={['2']}>
-                <Menu.Item key="1"><Link to="/">Home</Link></Menu.Item>
-                <Menu.Item key="2"><Link to="/product">Product</Link></Menu.Item>
                 <Menu.Item key="3"><Link to="/cart">Cart</Link></Menu.Item>
             </Menu>
             <div className="cart">

@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
-import {Helmet} from "react-helmet";
+import {FUNDING, PayPalMarks, PayPalScriptProvider} from '@paypal/react-paypal-js'
 import Home from './containers/Home';
 import Product from "./containers/Product";
 import Checkout from "./containers/checkout/Checkout";
 import Navigation from "./components/navigation/Navigation";
 import './App.scss';
+import {initialOptions} from "./index";
 
 function App() {
     return (
@@ -22,7 +23,9 @@ function App() {
                 </Switch>
             </main>
             <footer>
-                Footer
+                {/*<PayPalScriptProvider options={initialOptions}>*/}
+                {/*<PayPalMarks fundingSource={FUNDING.PAYPAL}/>*/}
+                {/*</PayPalScriptProvider>*/}
             </footer>
         </div>
     )

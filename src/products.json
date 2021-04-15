@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "title": "Seeweed-Pure",
+    "desc": "Bade in rein organischem Seetang",
+    "images": [
+      "pexels.com",
+      "stock.com"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "price": 33.33,
+        "weight": 350
+      },
+      {
+        "id": 2,
+        "price": 60.99,
+        "weight": 700
+      },
+      {
+        "id": 3,
+        "price": 85.99,
+        "weight": 1050
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Seeweed-Badebomde",
+    "desc": "Lass es Blubbern",
+    "images": [
+      "pexels.com",
+      "stock.com"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "price": 9.99,
+        "weight": 150
+      },
+      {
+        "id": 2,
+        "price": 17.99,
+        "weight": 300
+      },
+      {
+        "id": 3,
+        "price": 24.99,
+        "weight": 450
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Seeweed-Aromabad",
+    "desc": "Bade in aromatisierem Seetang",
+    "images": [
+      "pexels.com",
+      "stock.com"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "price": 33.33,
+        "weight": 350
+      },
+      {
+        "id": 2,
+        "price": 60.99,
+        "weight": 700
+      },
+      {
+        "id": 3,
+        "price": 85.99,
+        "weight": 1050
+      }
+    ]
+  }
+]
