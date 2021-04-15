@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import {Link} from "react-router-dom";
 
 const products = require('../products.json');
-
++
 export default function Home() {
     const [count, setCount] = useState(0);
 
@@ -13,6 +13,9 @@ export default function Home() {
     return (
         <div>
             <h1>Welcome on Home!</h1>
+            <h2>
+                Test1
+            </h2>
             Counter: {count}
             <button onClick={() => setCount(count + 1)}>Increase</button>
             <div>
