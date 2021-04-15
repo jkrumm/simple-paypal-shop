@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import {Link} from "react-router-dom";
 
 const products = require('../products.json');
-+
+
 export default function Home() {
     const [count, setCount] = useState(0);
 
