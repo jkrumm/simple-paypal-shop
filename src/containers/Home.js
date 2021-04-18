@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 
 const products = require('../products.json');
 
-export default function Home() {
+export default function Home(props) {
     const [count, setCount] = useState(0);
 
     useEffect(() => {

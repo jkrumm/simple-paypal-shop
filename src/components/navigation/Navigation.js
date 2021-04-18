@@ -4,7 +4,7 @@ import Card from '../cart/Cart';
 import {Layout, Menu, Popover, Button} from 'antd';
 import './Navigation.scss';
 
-const {Header, Content, Footer} = Layout;
+const {Header} = Layout;
 
 
 export default function Navigation() {

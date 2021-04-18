@@ -4,8 +4,8 @@
     "title": "Seeweed-Pure",
     "desc": "Bade in rein organischem Seetang",
     "images": [
-      "pexels.com",
-      "stock.com"
+      "https://ik.imagekit.io/jtrj8won4m0/Tasse/pexels-lachlan-ross-5967952_CRnPl9M4FI.jpg",
+      "https://ik.imagekit.io/jtrj8won4m0/Tasse/pexels-lachlan-ross-7084177_jKxFq4Roxc.jpg"
     ],
     "variants": [
       {
@@ -30,8 +30,9 @@
     "title": "Seeweed-Badebomde",
     "desc": "Lass es Blubbern",
     "images": [
-      "pexels.com",
-      "stock.com"
+      "https://ik.imagekit.io/jtrj8won4m0/Tasse/pexels-elianne-dipp-4666751_BLC06iU2iA.jpg",
+      "https://ik.imagekit.io/jtrj8won4m0/Tasse/pexels-tom-fisk-1125979_aTIb_IQn0yV.jpg",
+      "https://ik.imagekit.io/jtrj8won4m0/Tasse/pexels-francesco-ungaro-3635910_2ugc2DBxb.jpg"
     ],
     "variants": [
       {
@@ -56,8 +57,10 @@
     "title": "Seeweed-Aromabad",
     "desc": "Bade in aromatisierem Seetang",
     "images": [
-      "pexels.com",
-      "stock.com"
+      "https://ik.imagekit.io/jtrj8won4m0/Tasse/pexels-lachlan-ross-5967952_CRnPl9M4FI.jpg",
+      "https://ik.imagekit.io/jtrj8won4m0/Tasse/pexels-elianne-dipp-4666751_BLC06iU2iA.jpg",
+      "https://ik.imagekit.io/jtrj8won4m0/Tasse/pexels-lachlan-ross-7084177_jKxFq4Roxc.jpg",
+      "https://ik.imagekit.io/jtrj8won4m0/Tasse/pexels-tom-fisk-1125979_aTIb_IQn0yV.jpg"
     ],
     "variants": [
       {
