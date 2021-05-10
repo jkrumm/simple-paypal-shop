@@ -1,13 +1,15 @@
 import React, {useState, useEffect} from 'react';
 import {Link} from "react-router-dom";
 import ImageSlider from '../components/Slider/Slider';
+import Product from "./product/Product";
+// import BlogPostTitle from "../components/blog/blog-post-list";
 
 const products = require('../products.json');
+// const blog = require('../blog.json');
 
 
 export default function Home(props) {
     const [count, setCount] = useState(0);
-
 
     useEffect(() => {
         document.title = `You clicked ${count} times`;
@@ -16,6 +18,10 @@ export default function Home(props) {
     return (
         <div>
             <ImageSlider/>
+
+            {/*{blog.map(item =>*/}
+            {/*    <BlogPostTitle blogPost={item} imageOrientation="left"/>*/}
+            {/*)}*/}
 
             <header id="main-header">
                 <h1>SeaSpa GbR.</h1>

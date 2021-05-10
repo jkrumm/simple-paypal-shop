@@ -1,0 +1,16 @@
+.blog-post-list {
+  p {
+    width: 333px;
+  }
+  img {
+    width: 666px;
+
+    &.left {
+      float: left;
+    }
+
+    &.right {
+      float: right;
+    }
+  }
+}
