@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import './index.css';
 import 'antd/dist/antd.min.css';
@@ -19,3 +19,4 @@ ReactDOM.render(
     </BrowserRouter>,
     document.getElementById('root')
 )
+

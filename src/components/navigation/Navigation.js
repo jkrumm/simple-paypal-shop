@@ -12,7 +12,7 @@ export default function Navigation() {
         <Header>
             <Link to="/">
                 <div className="logo">
-                    <img alt="logo" src={"https://ik.imagekit.io/jtrj8won4m0/Tasse/logo_oScz6M-M1c.svg"} width="45"/>
+                    <img alt="logo" src={"https://ik.imagekit.io/bfx2aftyt/SeaSpa/Firmenlogo_Kluo2QxDV.png"} width="120"/>
                     <h1>Seaspa</h1>
                 </div>
             </Link>

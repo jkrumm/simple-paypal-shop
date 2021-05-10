@@ -1,10 +1,11 @@
 header.ant-layout-header {
+  height: 100px;
   background: #ECEFF4;
   border-bottom: 1px solid #D8DEE9;
   display: flex;
 
   .logo {
-    margin-right: 50px;
+    margin-right: 70px;
 
     img, h1 {
       display: inline;
@@ -12,8 +13,8 @@ header.ant-layout-header {
 
     img {
       position: relative;
-      top: -7px;
-      margin-right: 10px;
+      top: -4px;
+      margin-right: 40px;
     }
   }
 

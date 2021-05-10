@@ -55,3 +55,193 @@ body {
   border-left: 1px solid #D8DEE9;
   border-right: 1px solid #D8DEE9;
 }
+
+// ab hier schreib ich wieder meine Übungszeug!!!!!!!!
+
+
+h2 {color: rgb(79, 122, 79)}
+
+
+p {
+  max-width: 1000px;
+}
+
+
+#main-header {
+  width: 1000px;
+  text-align: center;
+}
+
+//Slider 1------------------------------------------------------------------------------------
+
+#irgendwas {
+  width: 1000px;
+}
+
+// slider 1 ende ---------------------------------------------------------------------------------------
+
+
+//slider 2
+
+.slider {
+  overflow-x: hidden;
+  width: 1000px;
+}
+
+.sliderElements {
+  width: 500%; /* Summe der Einzelbreiten der Slides */
+}
+
+.sliderElements > li {
+  float: left;
+  width: 20%; /* 100 durch Anzahl der Slides */
+}
+
+/* Clearfix für die Liste */
+.sliderElements:after {
+  content: ".";
+  display: block;
+  height: .1px;
+  clear: both;
+  visibility: hidden;
+  font-size: 0;
+  overflow: hidden;
+}
+
+.sliderElements {
+  position: relative;
+  left: 0;
+}
+
+.slider input:nth-of-type(2):checked ~ .sliderElements {
+  left: -100%;
+}
+
+.slider input:nth-of-type(3):checked ~ .sliderElements {
+  left: -200%;
+}
+
+/* Statt der Pseudoklasse nth-of-type können wir auch mit der ID des inputs arbeiten */
+#slide04:checked ~ .sliderElements {
+  left: -300%;
+}
+
+#slide05:checked ~ .sliderElements {
+  left: -400%;
+}
+
+.sliderElements,
+.sliderElements figure,
+.sliderControls {
+    margin: 0;
+}
+
+.sliderElements:after {
+    content: ".";
+    display: block;
+    height: .1px;
+    clear: both;
+    visibility: hidden;
+    font-size: 0;
+    overflow: hidden;
+}
+
+.cssSlider {
+    overflow-x: hidden;
+}
+
+.sliderElements {
+    list-style: none;
+    position: relative;
+    left: 0;
+    width: 500%;
+    margin-bottom: .8em;
+    padding: 0;
+    -webkit-transition: left .8s ease-in-out;
+    -moz-transition: left .8s ease-in-out;
+    -o-transition: left .8s ease-in-out;
+    transition: left .8s ease-in-out;
+}
+
+.sliderElements > li {
+    float: left;
+    width: 20%;
+    position: relative;
+}
+
+#slide02:checked ~ .sliderElements {
+    left: -100%;
+}
+
+#slide03:checked ~ .sliderElements {
+    left: -200%;
+}
+
+#slide04:checked ~ .sliderElements {
+    left: -300%;
+}
+
+#slide05:checked ~ .sliderElements {
+  left: -400%;
+}
+
+/* Bildunterschrift auf dem Bild positionieren */
+.sliderElements figcaption {
+    display: block;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 1em;
+    padding: .4em;
+    background: rgba(0,0,0,.5);
+}
+
+/* Bilder responsive */
+.sliderElements img {
+    width: 1000px;
+    height: auto;
+}
+
+
+/* inputs aus dem Blickfeld schieben */
+.cssSlider input {
+    position: absolute;
+    left: -99999px;
+}
+
+/* mittige Ausrichtung der Controls - funktioniert im Zusammenspiel mit inline-block */
+.sliderControls {
+    text-align: center;
+    width: 1000px;
+}
+
+/* Controls nebeneinander bringen */
+.sliderControls li {
+    display: inline-block;
+}
+
+/* Controls auf einheitliche Maße bringen und die Ecken abrunden */
+.sliderControls label {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    display: block;
+    cursor: pointer;
+    background: #68B022;
+    color: #68B022;
+}
+
+/* Attributselektor und indirekter Nachfahrkombinator zum ansteuern der labels */
+.sliderControls label:hover,
+#slide01:checked ~ .sliderControls label[for="slide01"],
+#slide02:checked ~ .sliderControls label[for="slide02"],
+#slide03:checked ~ .sliderControls label[for="slide03"],
+#slide04:checked ~ .sliderControls label[for="slide04"],
+#slide04:checked ~ .sliderControls label[for="slide05"] {
+    background: #ddd;
+    color: #ddd;
+}
+
+// slider 2 ende --------------------------------------------------------------------------------------
