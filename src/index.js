@@ -4,6 +4,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import 'antd/dist/antd.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.scss';
 import App from './App';
 
 export const initialOptions = {

@@ -13,17 +13,15 @@ export default function Product(props) {
     });
     console.log(product)
 
-    const handleVariantChange = () => {
-
-    }
+    // const handleVariantChange = () => {}
 
     return (
         <div className="row">
             <div className="col-12 col-md-6">
-                <div><img src={image + '?tr=w-500,h-550,cm-pad_resize,bg-F3F3F3'}/></div>
+                <div><img alt="main" src={image + '?tr=w-500,h-550,cm-pad_resize,bg-F3F3F3'}/></div>
                 <div>
-                    {product.images.map(item =>
-                        <img onClick={() => setImage(item)} src={item + '?tr=w-50,h-55,cm-pad_resize,bg-F3F3F3'}/>
+                    {product.images.map((item, index) =>
+                        <img alt={index} key={index} onClick={() => setImage(item)} src={item + '?tr=w-50,h-55,cm-pad_resize,bg-F3F3F3'}/>
                     )}
                 </div>
             </div>

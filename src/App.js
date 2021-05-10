@@ -7,7 +7,7 @@ import Navigation from "./components/navigation/Navigation";
 import './App.scss';
 
 function App() {
-    const [cart, setCart] = useState([]);
+    // const [cart, setCart] = useState([]);
 
     useEffect(() => {
 
