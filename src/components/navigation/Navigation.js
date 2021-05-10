@@ -7,7 +7,9 @@ import './Navigation.scss';
 const {Header} = Layout;
 
 
-export default function Navigation() {
+export default function Navigation(props) {
+    const { showShop } = props;
+
     return (
         <Header>
             <Link to="/">
@@ -16,14 +18,14 @@ export default function Navigation() {
                     <h1>Seaspa</h1>
                 </div>
             </Link>
-            <Menu mode="horizontal" defaultSelectedKeys={['2']}>
+            {showShop && <> <Menu mode="horizontal" defaultSelectedKeys={['2']}>
                 <Menu.Item key="3"><Link to="/cart">Cart</Link></Menu.Item>
             </Menu>
             <div className="cart">
                 <Popover placement="bottomRight" title="Einkaufswagen" content={<Card/>} trigger="click">
                     <Button>Einkaufswagen</Button>
                 </Popover>
-            </div>
+            </div> </>}
         </Header>
     );
 }

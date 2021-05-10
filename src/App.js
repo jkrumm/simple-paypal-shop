@@ -8,9 +8,12 @@ import './App.scss';
 
 function App() {
     // const [cart, setCart] = useState([]);
+    const [showShop, setShowShop] = useState(false);
 
     useEffect(() => {
-
+        const urlParams = new URLSearchParams(window.location.search);
+        const showShopParam = urlParams.get('showShop')
+        setShowShop(showShopParam === "true");
     });
 
     const addToCart = () => {
@@ -19,12 +22,12 @@ function App() {
 
     return (
         <div className="wrapper">
-            <Navigation/>
+            <Navigation showShop={showShop}/>
             <main>
                 <Switch>
-                    <Route path="/" exact><Home addToCart={addToCart}/></Route>
-                    <Route path="/product"><Product addToCart={addToCart}/></Route>
-                    <Route path="/cart" component={Checkout}/>
+                    <Route path="/" exact><Home addToCart={addToCart} showShop={showShop}/></Route>
+                    <Route path="/product"><Product addToCart={addToCart} showShop={showShop}/></Route>
+                    <Route path="/cart" component={Checkout} showShop={showShop}/>
                     {/*<Route path="/about" component={About} />*/}
                     {/*<Route path="/shop" component={Shop} />*/}
                     {/*<Route component={Error} />*/}

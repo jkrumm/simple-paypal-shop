@@ -1,15 +1,14 @@
 import React, {useState, useEffect} from 'react';
 import {Link} from "react-router-dom";
 import ImageSlider from '../components/Slider/Slider';
-import Product from "./product/Product";
 // import BlogPostTitle from "../components/blog/blog-post-list";
 
 const products = require('../products.json');
 // const blog = require('../blog.json');
 
-
 export default function Home(props) {
     const [count, setCount] = useState(0);
+    const {showShop} = props;
 
     useEffect(() => {
         document.title = `You clicked ${count} times`;
@@ -257,13 +256,13 @@ export default function Home(props) {
             Counter: {count}
             <button onClick={() => setCount(count + 1)}>Increase</button>
 
-            <div>
+            {showShop && <div>
                 <ul>
                     {products.map(item => <Link key={item.id} to={"/product/" + item.id}>
                         <li>{item.title}</li>
                     </Link>)}
                 </ul>
-            </div>
+            </div>}
         </div>
     );
 }
