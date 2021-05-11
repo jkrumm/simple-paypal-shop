@@ -23,7 +23,7 @@ export default function Home(props) {
             {/*)}*/}
 
             <header id="main-header">
-                <h1>SeaSpa GbR.</h1>
+                <h1>SeaSpa GbR.!!!!</h1>
             </header>
             <section>
                 <article className="post">
