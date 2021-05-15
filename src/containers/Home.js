@@ -27,7 +27,10 @@ export default function Home(props) {
             </header>
             <section>
                 <article>
-                    <h3>Umfrage</h3>
+                    <h3>Umfrage 1</h3>
+                    <iframe frameborder="0" id="iframeX6D3A1V8A8F1F9Y6J" src="https://www.survio.com/survey/d/G9W5O5T5S6P9K6M9U" height="600" width="800"></iframe>
+                    <br></br>
+                    <h3>Umfrage 2</h3>
                     <p>
                         Bitte Machen Sie an der <a href="https://www.survio.com/survey/d/G9W5O5T5S6P9K6M9U" target="_blank" rel="noreferrer">Umfrage</a> mit um die Kundenzufriedenheit zu erhöhen.
                     </p>
