@@ -2,10 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,36 +9,36 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+// .App-header {
+//   background-color: #d5e9b0;
+//   min-height: 100vh;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   font-size: calc(10px + 2vmin);
+//   color: white;
+// }
 
-.App-link {
-  color: #61dafb;
-}
+// .App-link {
+//   color: #61dafb;
+// }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+// @keyframes App-logo-spin {
+//   from {
+//     transform: rotate(0deg);
+//   }
+//   to {
+//     transform: rotate(360deg);
+//   }
+// }
 
 body {
   width: 100vw;
   min-height: 100%;
   display: block;
   position: relative;
-  background-color: #ECEFF4;
+  background-color: #eef3fc;
 } 
 
 .wrapper {
@@ -56,192 +52,93 @@ body {
   border-right: 1px solid #D8DEE9;
 }
 
-// ab hier schreib ich wieder meine Übungszeug!!!!!!!!
+// ab hier schreib ich wieder meine Zeug!!!!!!!!
 
-
-h2 {color: rgb(79, 122, 79)}
-
-
-p {
-  max-width: 1000px;
+.hintergrund {
+  background-color: #d5e9b0;
 }
 
-
-#main-header {
-  width: 1000px;
+.geschichte {
+  margin: 0 0 50px 0;
+  background-color: beige;
   text-align: center;
+  font-family: fantasy;
+  h1 {
+    // position: relative;
+    // top: 15px;
+    font-size: 40pt;
+  }
+  p {
+    font-size: 20pt;
+  }
 }
 
-//Slider 1------------------------------------------------------------------------------------
+// Kannst du pls versuchen das Bild so hoch wie den Text zu machen
+.nutzen {
+  margin: 0 0 50px 0;
+  background-color: beige;
 
-#irgendwas {
-  width: 1000px;
-}
-
-// slider 1 ende ---------------------------------------------------------------------------------------
-
-
-//slider 2
-
-.slider {
-  overflow-x: hidden;
-  width: 1000px;
-}
-
-.sliderElements {
-  width: 500%; /* Summe der Einzelbreiten der Slides */
-}
-
-.sliderElements > li {
-  float: left;
-  width: 20%; /* 100 durch Anzahl der Slides */
-}
-
-/* Clearfix für die Liste */
-.sliderElements:after {
-  content: ".";
-  display: block;
-  height: .1px;
-  clear: both;
-  visibility: hidden;
-  font-size: 0;
-  overflow: hidden;
-}
-
-.sliderElements {
-  position: relative;
-  left: 0;
-}
-
-.slider input:nth-of-type(2):checked ~ .sliderElements {
-  left: -100%;
-}
-
-.slider input:nth-of-type(3):checked ~ .sliderElements {
-  left: -200%;
-}
-
-/* Statt der Pseudoklasse nth-of-type können wir auch mit der ID des inputs arbeiten */
-#slide04:checked ~ .sliderElements {
-  left: -300%;
-}
-
-#slide05:checked ~ .sliderElements {
-  left: -400%;
-}
-
-.sliderElements,
-.sliderElements figure,
-.sliderControls {
-    margin: 0;
-}
-
-.sliderElements:after {
-    content: ".";
-    display: block;
-    height: .1px;
-    clear: both;
-    visibility: hidden;
-    font-size: 0;
-    overflow: hidden;
-}
-
-.cssSlider {
-    overflow-x: hidden;
-}
-
-.sliderElements {
-    list-style: none;
+  div {
     position: relative;
-    left: 0;
-    width: 500%;
-    margin-bottom: .8em;
-    padding: 0;
-    -webkit-transition: left .8s ease-in-out;
-    -moz-transition: left .8s ease-in-out;
-    -o-transition: left .8s ease-in-out;
-    transition: left .8s ease-in-out;
+    right: -10px;
+    text-align: center;
+    font-family: fantasy;
+    width: 35%;
+  }
+
+  p {
+    font-size: 18pt;
+  }
+
+  img {
+    height: 370px;
+    position: absolute;
+    right: 0px;
+  }
 }
 
-.sliderElements > li {
-    float: left;
-    width: 20%;
+.produkt {
+  margin: 0 0 50px 0;
+  background-color: beige;
+
+  div {
     position: relative;
-}
-
-#slide02:checked ~ .sliderElements {
-    left: -100%;
-}
-
-#slide03:checked ~ .sliderElements {
-    left: -200%;
-}
-
-#slide04:checked ~ .sliderElements {
-    left: -300%;
-}
-
-#slide05:checked ~ .sliderElements {
-  left: -400%;
-}
-
-/* Bildunterschrift auf dem Bild positionieren */
-.sliderElements figcaption {
-    display: block;
-    color: #fff;
-    position: absolute;
-    left: 0;
-    bottom: 1em;
-    padding: .4em;
-    background: rgba(0,0,0,.5);
-}
-
-/* Bilder responsive */
-.sliderElements img {
-    width: 1000px;
-    height: auto;
-}
-
-
-/* inputs aus dem Blickfeld schieben */
-.cssSlider input {
-    position: absolute;
-    left: -99999px;
-}
-
-/* mittige Ausrichtung der Controls - funktioniert im Zusammenspiel mit inline-block */
-.sliderControls {
     text-align: center;
-    width: 1000px;
+    font-family: fantasy;
+    width: 35%;
+    right: -710px;
+  }
+
+  p {
+    font-size: 18pt;
+  }
+
+  img {
+    height: 368px;
+    position: absolute;
+    // left: 0px;
+  }
 }
 
-/* Controls nebeneinander bringen */
-.sliderControls li {
-    display: inline-block;
-}
+.wir {
+  margin: 0 0 50px 0;
+  background-color: beige;
 
-/* Controls auf einheitliche Maße bringen und die Ecken abrunden */
-.sliderControls label {
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
+  div {
+    position: relative;
+    right: -10px;
     text-align: center;
-    border-radius: 50%;
-    display: block;
-    cursor: pointer;
-    background: #68B022;
-    color: #68B022;
-}
+    font-family: fantasy;
+    width: 35%;
+  }
 
-/* Attributselektor und indirekter Nachfahrkombinator zum ansteuern der labels */
-.sliderControls label:hover,
-#slide01:checked ~ .sliderControls label[for="slide01"],
-#slide02:checked ~ .sliderControls label[for="slide02"],
-#slide03:checked ~ .sliderControls label[for="slide03"],
-#slide04:checked ~ .sliderControls label[for="slide04"],
-#slide04:checked ~ .sliderControls label[for="slide05"] {
-    background: #ddd;
-    color: #ddd;
-}
+  p {
+    font-size: 18pt;
+  }
 
-// slider 2 ende --------------------------------------------------------------------------------------
+  img {
+    height: 333px;
+    position: absolute;
+    right: 0px;
+  }
+}

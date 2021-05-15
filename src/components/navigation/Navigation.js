@@ -14,7 +14,7 @@ export default function Navigation(props) {
         <Header>
             <Link to="/">
                 <div className="logo">
-                    <img alt="logo" src={"https://ik.imagekit.io/bfx2aftyt/SeaSpa/Firmenlogo_Kluo2QxDV.png"} width="120"/>
+                    <img alt="logo" src={"https://ik.imagekit.io/bfx2aftyt/SeaSpa/Logo/Transparenter-Hintergrund_T8iYmm8Ww.png"}/>
                     <h1>Seaspa</h1>
                 </div>
             </Link>

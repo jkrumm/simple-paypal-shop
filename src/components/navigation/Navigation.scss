@@ -1,21 +1,25 @@
 header.ant-layout-header {
-  height: 100px;
-  background: #ECEFF4;
+  height: 60px;
+  background: #d5e9b0;
   border-bottom: 1px solid #D8DEE9;
   display: flex;
   padding: 0;
 
   .logo {
-    margin-right: 70px;
+    margin-right: 400px;
+    background-color: chocolate;
 
-    img, h1 {
-      display: inline;
+    h1 {
+      position: absolute;
+      left: 100px;
+      top: 3px;
     }
 
     img {
-      position: relative;
-      top: -4px;
-      margin-right: 40px;
+      position: absolute;
+      height: 180px;
+      top: -59px;
+      left: -50px;
     }
   }
 
