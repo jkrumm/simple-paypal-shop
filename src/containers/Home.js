@@ -26,6 +26,12 @@ export default function Home(props) {
                 <h1>SeaSpa GbR.!!!!</h1>
             </header>
             <section>
+                <article>
+                    <h3>Umfrage</h3>
+                    <p>
+                        Bitte Machen Sie an der <a href="https://www.survio.com/survey/d/G9W5O5T5S6P9K6M9U" target="_blank" rel="noreferrer">Umfrage</a> mit um die Kundenzufriedenheit zu erhöhen.
+                    </p>
+                </article>
                 <article className="post">
                     <h3> Blog post 1</h3>
                     <small>Post von Tassilo</small>
