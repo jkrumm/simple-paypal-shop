@@ -46,7 +46,7 @@ export default function Home(props) {
         </section>
 
         <section className="produkt">
-            <img src="https://ik.imagekit.io/bfx2aftyt/SeaSpa/Pixabay/Seetang-Nahaufnahme_PLYkYjBesB.jpg"></img>
+            <img src="https://ik.imagekit.io/bfx2aftyt/SeaSpa/Auf_Homepage/coming-soon-2550190_1280_tByU9nQ__.jpg"></img>
             <br></br>
             <div>
                 <h1>Unser Produkt</h1>
@@ -72,16 +72,11 @@ export default function Home(props) {
         </section>
 
 
-            <section>
-                <article>
-                    <h3>Umfrage 1</h3>
+            <section className="umfrage">
+                <div>
                     <iframe frameborder="0" id="iframeX6D3A1V8A8F1F9Y6J" src="https://www.survio.com/survey/d/G9W5O5T5S6P9K6M9U" height="300" width="400"></iframe>
                     <br></br>
-                    <h3>Umfrage 2</h3>
-                    <p>
-                        Bitte Machen Sie an der <a href="https://www.survio.com/survey/d/G9W5O5T5S6P9K6M9U" target="_blank" rel="noreferrer">Umfrage</a> mit um die Kundenzufriedenheit zu erhöhen.
-                    </p>
-                </article>
+                </div>
                 
             </section>
             
