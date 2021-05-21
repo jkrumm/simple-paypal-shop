@@ -24,7 +24,7 @@ export default function Home(props) {
         
         <section className="geschichte">
             <br></br>
-            <h1>Trend Seetangbad</h1>
+            <h1>Der Seetangbad Trend</h1>
             <p>
                 Die Iren erzählen seit Anfang des zwanzigsten Jahrhunderts von - Bäder in Meerwasser mit Seetang unterstützen die 
                 Gesundheit und sind wahre Wundermittel gegen Gelenkschmerzen. Durch seine beruhigende Wirkung dienen die Seetangbäder 
@@ -36,7 +36,7 @@ export default function Home(props) {
             <img src="https://ik.imagekit.io/bfx2aftyt/SeaSpa/Pixabay/Seetang-Nahaufnahme_PLYkYjBesB.jpg"></img>
             <br></br>
             <div>
-                <h1>Der Nutzen</h1>
+                <h1>Die Wirkung</h1>
                 <p>
                     Seetang ist reich an Mineralien, welche bei der Anwendung in der entspannenden Badewanne, freigesetzt werden. Diese regen 
                     aktiv die Durchblutung an und spenden Feuchtigkeit. Dadurch pflegt das Bad nicht nur die Haut, sondern entspannt dabei 
@@ -49,7 +49,7 @@ export default function Home(props) {
             <img src="https://ik.imagekit.io/bfx2aftyt/SeaSpa/Auf_Homepage/coming-soon-2550190_1280_tByU9nQ__.jpg"></img>
             <br></br>
             <div>
-                <h1>Unser Produkt</h1>
+                <h1>Das Seetangbad</h1>
                 <p>
                     Seetang ist eine Meerespflanze die hauptsächlich an den Küsten des Nordatlantiks wächst. Der Tang wird von Hand geerntet, 
                     bevor er weiterverarbeitet wird. Der gesamte Produktionsprozess verläuft dabei absolut natürlich ab, ohne Zusatz von 
@@ -62,7 +62,7 @@ export default function Home(props) {
             <img src="https://ik.imagekit.io/bfx2aftyt/SeaSpa/Pixabay/Seetang-Nahaufnahme_PLYkYjBesB.jpg"></img>
             <br></br>
             <div>
-                <h1>Über uns</h1>
+                <h1>SeaSpa-Team</h1>
                 <p>
                 SeaSpa GbR wurde 2021 gegründet und steht für nachhaltige Naturprodukte. Mit dem Badezusatz aus Meerestang können wir 
                 ein natürliches Produkt in den Alltag zu integrieren. Dies motiviert uns und hilft Ihnen bei einem entspannten und 

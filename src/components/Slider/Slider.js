@@ -17,7 +17,9 @@ export default class ImageSlider extends Component {
             <div className="image-slider">
                 <Slider {...settings}>
                     {/* <div className="slide">
-                        <video src="https://ik.imagekit.io/bfx2aftyt/SeaSpa/Auf_Homepage/SonnenuntergangSchnell_ya0_AQ5MK.mp4"></video>
+                        <video width="100%" controls autoplay>
+                            <source src="movie.mp4" type="video/mp4"></source>
+                        </video>
                     </div> */}
                     <div className="slide">
                         {/* <div>Test</div> */}
@@ -29,6 +31,13 @@ export default class ImageSlider extends Component {
                     <div className="slide">
                         <img alt="adaa-3" src="https://ik.imagekit.io/bfx2aftyt/SeaSpa/Auf_Homepage/home-3593729_1920-2_XGktxEelB.jpg"/>
                     </div>
+                    <div className="slide">
+                        <img alt="adaa-4" src="https://ik.imagekit.io/bfx2aftyt/SeaSpa/Auf_Homepage/WhatsApp_Image_2021-05-05_at_19.07.15_cDBQfq9Aol.jpeg"/>
+                    </div>
+                    <div className="slide">
+                        <img alt="adaa-5" src="https://ik.imagekit.io/bfx2aftyt/SeaSpa/Auf_Homepage/WhatsApp_Image_2021-05-05_at_19.01.16_NToMncXR-bt.jpeg"/>
+                    </div>
+                    
                     {/* <div className="slide">
                         <img alt="adsad-4" src="https://ik.imagekit.io/bfx2aftyt/SeaSpa/Auf_Homepage/coming-soon-2550190_1280_tByU9nQ__.jpg"/>
                     </div> */}
