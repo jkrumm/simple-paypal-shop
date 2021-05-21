@@ -65,7 +65,7 @@ export default function Home(props) {
                 <h1>SeaSpa-Team</h1>
                 <p>
                 SeaSpa GbR wurde 2021 gegründet und steht für nachhaltige Naturprodukte. Mit dem Badezusatz aus Meerestang können wir 
-                ein natürliches Produkt in den Alltag zu integrieren. Dies motiviert uns und hilft Ihnen bei einem entspannten und 
+                ein natürliches Produkt in den Alltag integrieren. Dies motiviert uns und hilft Ihnen bei einem entspannten und 
                 gepflegten Bad.
                 </p>
             </div>
