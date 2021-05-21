@@ -30,6 +30,7 @@ export default function Home(props) {
                 Gesundheit und sind wahre Wundermittel gegen Gelenkschmerzen. Durch seine beruhigende Wirkung dienen die Seetangbäder 
                 außerdem schon seit je her der Erholung und Entspannung.
             </p>
+            <br></br>
         </section>
 
         <section className="nutzen">
@@ -42,6 +43,7 @@ export default function Home(props) {
                     aktiv die Durchblutung an und spenden Feuchtigkeit. Dadurch pflegt das Bad nicht nur die Haut, sondern entspannt dabei 
                     zugleich den ganzen Körper. 
                 </p>
+                <br></br>
             </div>
         </section>
 
@@ -55,6 +57,7 @@ export default function Home(props) {
                     bevor er weiterverarbeitet wird. Der gesamte Produktionsprozess verläuft dabei absolut natürlich ab, ohne Zusatz von 
                     weiteren Produkten.
                 </p>
+                <br></br>
             </div>
         </section>
 
@@ -68,6 +71,7 @@ export default function Home(props) {
                 ein natürliches Produkt in den Alltag integrieren. Dies motiviert uns und hilft Ihnen bei einem entspannten und 
                 gepflegten Bad.
                 </p>
+                <br></br>
             </div>
         </section>
 

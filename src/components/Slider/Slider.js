@@ -10,7 +10,7 @@ export default class ImageSlider extends Component {
             speed: 700,
             slidesToShow: 1,
             slidesToScroll: 1,
-            autoplaySpeed: 4000,
+            autoplaySpeed: 9000,
             autoplay: true
         };
         return (
