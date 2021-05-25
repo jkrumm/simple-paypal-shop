@@ -5,14 +5,19 @@
   .slide {
     position: relative;
 
+    // .text {
+    //   color: black;
+    // }
+
     > div {
       position: absolute;
-      left: 50%;
+      left: 60%;
       bottom: 100px;
       background: white;
+      opacity: 0.4;
       z-index: 99;
       display: block;
-      font-size: 99px;
+      font-size: 49px;
     }
   }
 

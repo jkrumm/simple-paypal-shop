@@ -62,7 +62,7 @@ export default function Home(props) {
         </section>
 
         <section className="wir">
-            <img src="https://ik.imagekit.io/bfx2aftyt/SeaSpa/Pixabay/Seetang-Nahaufnahme_PLYkYjBesB.jpg"></img>
+            <img src="https://ik.imagekit.io/bfx2aftyt/SeaSpa/Auf_Homepage/collage_6hZB-BdVl.jpg"></img>
             <br></br>
             <div>
                 <h1>SeaSpa-Team</h1>

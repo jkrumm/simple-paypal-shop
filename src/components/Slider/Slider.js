@@ -22,33 +22,19 @@ export default class ImageSlider extends Component {
                         </video>
                     </div> */}
                     <div className="slide">
-                        <img alt="adaa-8" src="https://ik.imagekit.io/bfx2aftyt/SeaSpa/Auf_Homepage/Slider/underwater-2966572_1920_X_iBYA-3vq7.jpg"/>
+                        <div className="text">Handgepflückt</div>
+                        <img alt="adaa-1" src="https://ik.imagekit.io/bfx2aftyt/SeaSpa/Auf_Homepage/Slider/Neu/seaweed-2672698_1920_Wufh3tER0.jpg"/>
                     </div>
+
                     <div className="slide">
-                        <img alt="adaa-6" src="https://ik.imagekit.io/bfx2aftyt/SeaSpa/Auf_Homepage/Slider/water-5366496_1920_kR6C4rDTR.jpg"/>
+                        {/* <div className="text">Schonend getrocknet</div> */}
+                        <img alt="adaa-2" src="https://ik.imagekit.io/bfx2aftyt/SeaSpa/Auf_Homepage/Slider/Neu/seaweed-270426_1920_Z57uad12g.jpg"/>
                     </div>
-                    {/* <div className="slide">
-                        <div>Test</div>
-                        <img alt="sdfg-1" src="https://ik.imagekit.io/bfx2aftyt/SeaSpa/Auf_Homepage/emerald-4641424_1920_1__mkzEL8xaj5X.jpg"/>
-                    </div>
+
                     <div className="slide">
-                        <img alt="aasd-2" src="https://ik.imagekit.io/bfx2aftyt/SeaSpa/Auf_Homepage/seaweed-3524238_1920_1__BPjDT2dQc.jpg"/>
-                    </div>  */}
-                    {/* <div className="slide">
-                        <img alt="adaa-3" src="https://ik.imagekit.io/bfx2aftyt/SeaSpa/Auf_Homepage/home-3593729_1920-2_XGktxEelB.jpg"/>
-                    </div> */}
-                    {/* <div className="slide">
-                        <img alt="adaa-4" src="https://ik.imagekit.io/bfx2aftyt/SeaSpa/Auf_Homepage/WhatsApp_Image_2021-05-05_at_19.07.15_cDBQfq9Aol.jpeg"/>
+                        {/* <div className="text">Aus Irland</div> */}
+                        <img alt="adaa-3" src="https://ik.imagekit.io/bfx2aftyt/SeaSpa/Auf_Homepage/Slider/Neu/river-6162706_1920_MBqUTBC7T.jpeg"/>
                     </div>
-                    <div className="slide">
-                        <img alt="adaa-5" src="https://ik.imagekit.io/bfx2aftyt/SeaSpa/Auf_Homepage/WhatsApp_Image_2021-05-05_at_19.01.16_NToMncXR-bt.jpeg"/>
-                    </div> */}
-                    {/* <div className="slide">
-                        <img alt="adaa-7" src="https://ik.imagekit.io/bfx2aftyt/SeaSpa/Auf_Homepage/Slider/sea-2755858_1920_lef84lTN2ITZ.jpg"/>
-                    </div> */}
-                    {/* <div className="slide">
-                        <img alt="adsad-4" src="https://ik.imagekit.io/bfx2aftyt/SeaSpa/Auf_Homepage/coming-soon-2550190_1280_tByU9nQ__.jpg"/>
-                    </div> */}
                 </Slider>
             </div>
         );
