@@ -41,7 +41,7 @@ export default function Home(props) {
                 <p>
                     Seegras ist reich an Mineralien, welche bei der Anwendung in der entspannenden Badewanne, freigesetzt werden. Diese regen 
                     aktiv die Durchblutung an und spenden Feuchtigkeit. Dadurch pflegt das Bad nicht nur die Haut, sondern entspannt dabei 
-                    zugleich den ganzen Körper. Wercher scheiß idiot hat mir den Txt reingeballert ihr dummen vollidiote ich mad das gabz HTML und SCSS der Homapage und ihr bekommt nicht ein mal den schei text geschissen "!!!!"
+                    zugleich den ganzen Körper.
                 </p>
                 <br></br>
             </div>
