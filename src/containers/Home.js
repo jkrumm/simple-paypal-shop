@@ -69,7 +69,8 @@ export default function Home(props) {
                 <p>
                 SeaSpa GbR wurde 2021 gegründet und steht für nachhaltige Naturprodukte. Mit dem Badezusatz aus Seegras können wir 
                 ein natürliches Produkt in den Alltag integrieren. Dies motiviert uns und hilft Ihnen bei einem entspannten und 
-                gepflegten Bad.
+                gepflegten Bad. Besuchen Sie uns gerne auch auf <a href="https://www.instagram.com/seaspa_2021/" target="_blank">Instagram</a> um 
+                zusätliche Informationen zu erhalten!
                 </p>
                 <br></br>
             </div>
