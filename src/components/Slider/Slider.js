@@ -22,7 +22,7 @@ export default class ImageSlider extends Component {
                         </video>
                     </div> */}
                     <div className="slide">
-                        <div className="text">Handgepflückt</div>
+                        <div className="text">handerlesen</div>
                         <img alt="adaa-1" src="https://ik.imagekit.io/bfx2aftyt/SeaSpa/Auf_Homepage/Slider/Neu/seaweed-2672698_1920_Wufh3tER0.jpg"/>
                     </div>
 
